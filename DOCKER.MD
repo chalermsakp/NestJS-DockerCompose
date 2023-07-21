@@ -25,8 +25,9 @@
 
 * Sign in
 
-##### 4. Create Dockerfile for Project
+##### 5. Create Dockerfile for Project
 
+* Open Project NestJS
 * Create Dockerfile
 * Copy to Dockerfile
 
@@ -45,7 +46,7 @@
 <br># เริ่มต้นแอปพลิเคชัน Nest.js
 <br>CMD ["npm", "run", "start:prod"]
 
-##### 5. Create docker-compose.yml
+##### 6. Create docker-compose.yml
 * Create file docker-compose.yml
 * Copy to docker-compose.yml
 
@@ -60,5 +61,5 @@
     <br>ports:
       <br>- "3000:3000"
 
-##### 6. Run Terminal
+##### 7. Run Terminal
 * >docker-compose up --build
