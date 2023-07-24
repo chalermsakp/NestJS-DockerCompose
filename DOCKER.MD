@@ -28,38 +28,13 @@
 ##### 5. Create Dockerfile for Project
 
 * Open Project NestJS
-* Create Dockerfile
-* Copy to Dockerfile
-
-* ><br># ใช้ Version ของ Node.js
-<br>FROM node:16<br>
-<br># ตั้งค่าไดเรกทอรีทำงานภายในคอนเทนเนอร์
-<br>WORKDIR /app<br>
-<br># คัดลอกไฟล์ package.json และ package-lock.json ไปยังคอนเทนเนอร์
-<br>COPY package*.json ./<br>
-<br># ติดตั้ง dependencies ของแอปพลิเคชัน
-<br>RUN npm install<br>
-<br># คัดลอกโค้ดทั้งหมดของแอปพลิเคชันไปยังคอนเทนเนอร์
-<br>COPY . .<br>
-<br># เปิดพอร์ตที่แอปพลิเคชัน Nest.js ทำงานอยู่
-<br>EXPOSE 3000<br>
-<br># เริ่มต้นแอปพลิเคชัน Nest.js
-<br>CMD ["npm", "run", "start:prod"]
+* Download Dockerfile
+* [Download](https://github.com/jumpondbe8/nestjs-prototype/blob/feature/dockercompose-cs-174%2C176/Dockerfile)
 
 ##### 6. Create docker-compose.yml
-* Create file docker-compose.yml
-* Copy to docker-compose.yml
-
-* >version: '3.9'
-<br>services:
-  <br>nestjs-app:
-    <br># ใช้ context <br>ที่ชี้ไปที่ตำแหน่งของแอปพลิเคชัน Nest.js
-    <br>build:
-      <br>context: .
-      <br>dockerfile: Dockerfile
-    <br># กำหนดพอร์ตให้แอปพลิเคชันเรียกใช้งาน
-    <br>ports:
-      <br>- "3000:3000"
+* Download file docker-compose.yml
+* [Download](https://github.com/jumpondbe8/nestjs-prototype/blob/feature/dockercompose-cs-174%2C176/docker-compose.yml)
+* Add docker-compose.yml To Project
 
 ##### 7. Run Terminal
 * >docker-compose up --build
