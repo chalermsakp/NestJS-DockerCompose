@@ -34,7 +34,7 @@
 
 ##### 6. Create docker-compose.yml
 * Download file docker-compose.yml
-* [Download](https://github.com/jumpondbe8/nestjs-prototype/blob/feature/dockercompose-cs-174%2C176/docker-compose.yml)
+* [Download](https://github.com/chalermsakp/NestJS-DockerCompose/blob/main/docker-compose.yml)
 * Add docker-compose.yml To Project
 
 ##### 7. Run Terminal
