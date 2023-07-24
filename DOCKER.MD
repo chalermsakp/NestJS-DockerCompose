@@ -30,6 +30,7 @@
 * Open Project NestJS
 * Download Dockerfile
 * [Download](https://github.com/jumpondbe8/nestjs-prototype/blob/feature/dockercompose-cs-174%2C176/Dockerfile)
+* Add Dockerfile To Project
 
 ##### 6. Create docker-compose.yml
 * Download file docker-compose.yml
