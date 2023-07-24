@@ -1,0 +1,11 @@
+version: '3.9'
+
+services:
+  nestjs-app:
+    # ใช้ context ที่ชี้ไปที่ตำแหน่งของแอปพลิเคชัน Nest.js
+    build:
+      context: .
+      dockerfile: Dockerfile
+    # กำหนดพอร์ตให้แอปพลิเคชันเรียกใช้งาน
+    ports:
+      - "3000:3000"
