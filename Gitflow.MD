@@ -23,13 +23,13 @@
 
 ### FixBug
 
-* ถ้าเจอบั๊กอยู่ในเวอร์ชันที่ release ไปแล้ว จะทำการแตก Branch ออกมาจาก master และทำการแก้ไขโดยด่วน
-* หลังจากที่ทำการแก้ไขแล้ว จะทำการ Merge ไปที่ Branch Production และ Branch develop ทันที
+* ถ้าเจอ Bug อยู่ในเวอร์ชันที่ Release ไปแล้ว จะทำการแตก Branch ออกมาจาก master และทำการแก้ไขโดยด่วน
+* หลังจากที่ทำการแก้ไขแล้ว จะทำการ Merge ไปที่ Branch Production และ Branch Develop ทันที
 
 ### Release
 
-* เป็น Branch ที่ถูกสร้างขึ้นจาก Branch develop
+* เป็น Branch ที่ถูกสร้างขึ้นจาก Branch Develop
 * เป็น Branch ที่ใช้สำหรับดำเนินการ Test หรือปรับแต่งรายละเอียดให้สมบูรณ์ เช่น ทำการแก้ Bug หรือเพิ่ม Feature ก่อนที่จะ Release
-* เมื่อทำการ QA เสร็จแล้ว จะทำการ Merge ไปที่ Branch Production และ Branch develop
+* เมื่อทำการ QA เสร็จแล้ว จะทำการ Merge ไปที่ Branch Production และ Branch Develop
 
 [GitFlow Diagarm](google.com)
