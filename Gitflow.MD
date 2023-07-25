@@ -7,7 +7,7 @@
 * ในส่วนของ Branch นี้จะไม่ทำ Develop
 * CI Auto Deploy To Env. Production
 
-### Developp
+### Develop
 * เป็น Branch ที่ดำเนินการพัฒนางานเป็นหลัก
 * แก้ไข Bug
 * พัฒนาโดยสร้าง Branch Feature ใหม่ขึ้นมา
