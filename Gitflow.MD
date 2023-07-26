@@ -1,5 +1,5 @@
 # GitFlow Design
-#### [Tools (Sourcetree)](https://www.sourcetreeapp.om/)
+#### [Tools (Sourcetree)](https://www.sourcetreeapp.com/)
 
 
 ### Master
