@@ -19,9 +19,9 @@ patch (แพทช์) = 0 <br><br>
 
 * > Example.
 <br>
-=> feature/cs-174-xxx โดยที่ xxx คือชื่อของ Feature ที่กำลังพัฒนา
-<br>=> release/x.x.x โดยที่ x.x.x คือเลขเวอร์ชันที่ตั้งของ Release
-<br>=> hotfix/xxx โดยที่ xxx คือชื่อของ Bug ที่กำลังแก้ไข
+feature/cs-174-xxx โดยที่ xxx คือชื่อของ Feature ที่กำลังพัฒนา
+<br>release/x.x.x โดยที่ x.x.x คือเลขเวอร์ชันที่ตั้งของ Release
+<br>hotfix/xxx โดยที่ xxx คือชื่อของ Bug ที่กำลังแก้ไข
 
 #### Refer 
 * https://leanpub.com/git-flow/read
