@@ -27,7 +27,7 @@
 * หลังจากที่ทำการแก้ไขแล้ว จะทำการ Merge ไปที่ Branch Master และ Branch Develop ทันที
 * [Hotfix Diagram](https://github.com/chalermsakp/NestJS-DockerCompose/blob/main/Picture/Gitflow-Diagram/04%20Hotfix%20branches.svg)
 
-### Release
+### Release2
 
 * เป็น Branch ที่ถูกสร้างขึ้นจาก Branch Develop
 * เป็น Branch ที่ใช้สำหรับดำเนินการ Test หรือปรับแต่งรายละเอียดให้สมบูรณ์ เช่น ทำการแก้ Bug หรือเพิ่ม Feature ก่อนที่จะ Release
