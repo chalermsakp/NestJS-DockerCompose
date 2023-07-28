@@ -26,7 +26,7 @@
 * ถ้าเจอ Bug อยู่ในเวอร์ชันที่ Release ไปแล้ว จะทำการแตก Branch ออกมาจาก master และทำการแก้ไขโดยด่วน
 * หลังจากที่ทำการแก้ไขแล้ว จะทำการ Merge ไปที่ Branch Production และ Branch Develop ทันที
 
-### Release2
+### Release
 
 * เป็น Branch ที่ถูกสร้างขึ้นจาก Branch Develop
 * เป็น Branch ที่ใช้สำหรับดำเนินการ Test หรือปรับแต่งรายละเอียดให้สมบูรณ์ เช่น ทำการแก้ Bug หรือเพิ่ม Feature ก่อนที่จะ Release
