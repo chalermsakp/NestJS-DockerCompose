@@ -21,7 +21,7 @@
 * ถ้างานที่พัฒนาเสร็จแล้ว จะทำการ Merge ไปที่ Branch develop
 * [Feature Diagram](https://raw.githubusercontent.com/chalermsakp/NestJS-DockerCompose/05401591120f582422e0d4d5460eebbaec4420ad/Picture/Gitflow-Diagram/02%20Feature%20branches.svg)
 
-### Hotfixx
+### Hotfix
 
 * ถ้าเจอ Bug อยู่ในเวอร์ชันที่ Release ไปแล้ว จะทำการแตก Branch ออกมาจาก Main และทำการแก้ไขโดยด่วน
 * หลังจากที่ทำการแก้ไขแล้ว จะทำการ Merge ไปที่ Branch Master และ Branch Develop ทันที
