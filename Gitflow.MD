@@ -2,7 +2,7 @@
 #### [Tools (Sourcetree)](https://www.sourcetreeapp.com/)
 
 
-### Master
+### Main
 * เป็น Branch สำหรับจัดการซอร์สโค้ดเพื่อ release ขึ้นไปที่ Production ให้กับ User
 * ทำการติดเวอร์ชันแท็ก
 * ในส่วนของ Branch นี้จะไม่ทำ Develop
@@ -24,14 +24,14 @@
 ### Hotfix
 
 * ถ้าเจอ Bug อยู่ในเวอร์ชันที่ Release ไปแล้ว จะทำการแตก Branch ออกมาจาก Main และทำการแก้ไขโดยด่วน
-* หลังจากที่ทำการแก้ไขแล้ว จะทำการ Merge ไปที่ Branch Master และ Branch Develop ทันที
+* หลังจากที่ทำการแก้ไขแล้ว จะทำการ Merge ไปที่ Branch Main และ Branch Develop ทันที
 * [Hotfix Diagram](https://github.com/chalermsakp/NestJS-DockerCompose/blob/main/Picture/Gitflow-Diagram/04%20Hotfix%20branches.svg)
 
 ### Release
 
 * เป็น Branch ที่ถูกสร้างขึ้นจาก Branch Develop
 * เป็น Branch ที่ใช้สำหรับดำเนินการ Test หรือปรับแต่งรายละเอียดให้สมบูรณ์ เช่น ทำการแก้ Bug หรือเพิ่ม Feature ก่อนที่จะ Release
-* เมื่อทำการ QA เสร็จแล้ว จะทำการ Merge ไปที่ Branch Master และ Branch Develop
+* เมื่อทำการ QA เสร็จแล้ว จะทำการ Merge ไปที่ Branch Main และ Branch Develop
 * [Release Diamgram](https://github.com/chalermsakp/NestJS-DockerCompose/blob/main/Picture/Gitflow-Diagram/03%20Release%20branches.svg)
 
 #### [GitNaming](https://github.com/chalermsakp/NestJS-DockerCompose/blob/main/GitNaming.MD)
